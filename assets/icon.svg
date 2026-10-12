@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- HA Graph plugin icon: a house outline with a filled trend graph in Home Assistant blue. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18BCF2" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#18BCF2" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bg)"/>
+  <path d="M112 236 L256 112 L400 236" fill="none" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M148 212 V400 H364 V212" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M164 360 L206 316 L246 336 L290 278 L346 296 L346 388 L164 388 Z" fill="url(#fill)"/>
+  <path d="M164 360 L206 316 L246 336 L290 278 L346 296" fill="none" stroke="#18BCF2" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
